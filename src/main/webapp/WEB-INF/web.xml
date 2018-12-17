@@ -4,4 +4,10 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name></web-resource-name>
+    </web-resource-collection>
+  </security-constraint>
 </web-app>

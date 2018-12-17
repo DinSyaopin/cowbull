@@ -1,0 +1,66 @@
+.gameWindow {
+    border: azure dotted;
+    border-style: groove;
+    width: 400px;
+    height: 400px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+}
+.gameHead {
+    text-align: center;
+}
+.gameLinks {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+    overflow: auto;
+}
+.gameLink {
+    text-align: center;
+    margin-top: 50px;
+}
+.form-sign {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+    overflow: auto;
+}
+.input-signs {
+    margin-top: 25%;
+}
+.input-sign {
+    text-align: center;
+    margin-top: 10px;
+}
+.input-submit {
+    text-align: center;
+    margin-top: 20px;
+}
+.btn-submit {
+    color: white;
+    text-decoration: none;
+    padding: 4px 65px 4px 65px;
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}
+.btn-submit:hover {
+    background: rgb(53, 167, 110);
+}
+.btn-submit:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
